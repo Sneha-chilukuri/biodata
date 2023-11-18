@@ -1,0 +1,117 @@
+.navbar-container{
+    height: 72px;
+    padding: 0px 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+
+    .nav-items-container{
+        width: 650px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .navbar-account-details{
+            width: 220px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .name-container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .name-container h5{
+                margin: 3px;
+                padding: 0px;
+            }
+
+           .admin-text{
+            color: #4D7CFE;
+           }
+
+            .profile-picture{
+                height: 45px;
+                width: 45px;
+            }
+
+            .nav-icons{
+                font-size: 24px;
+                color: #4D7CFE;
+            }
+
+            .profile-picture{
+                border-radius: 50%;
+            }
+        }
+        .search-bar-container{
+            width: 380px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .search-bar{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                .search-input{
+                    height: 28px;
+                    border: none;
+                    outline-color: #778CA2;
+                    outline-width: 1px;
+                    width: 200px;
+                }
+                ::placeholder{
+                    font-weight: 700;
+                    outline-style: none;
+                }
+
+                .search-icon{
+                    size: 28px;
+                    stroke-width: 1;
+                    color: #4D7CFE;
+                    margin-left: 5px;
+                    cursor: pointer;
+                }
+            }
+
+            .create-user-button{
+                background-color: #4D7CFE;
+                color: #ffffff;
+                height: 32px;
+                width: 123px;
+                padding: 8px;
+                font-weight: 500;
+                font-size: 12px;
+                border-radius: 8px;
+                border: none;
+                outline: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                outline: none;
+               
+                .plus-icon{
+                    margin-right: 8px;
+                    size: 18px;
+                    stroke-width:1;
+                }                
+            }
+        }
+    }
+    .logo{
+        height: 50px;
+        width: 150px;
+    }
+}
