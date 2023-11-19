@@ -1,0 +1,97 @@
+.filter-features-container{
+    margin: 0px 75px;
+    padding: 5px;
+    // border: 2px solid red;
+
+    .dashboard-text{
+       text-align: right;
+       color:#4D7CFE;
+       font-weight: 500;
+    //    border: 2px solid green;
+       padding: 0px;
+    }
+
+    .filter-section-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .create-feature-section{
+            margin: 0px 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 250px;
+
+            .filter-buttons{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 12px;
+                color: #778CA2;
+                font-weight: 700;
+                font-size: 12px;
+                height: 25px;
+                border: none;
+                background-color: transparent;
+                cursor: pointer;
+
+                .filter-icons{
+                    margin-left: 6px;
+                    stroke-width: 2;
+                    height: 16px;
+                    width: 16px;
+                }
+            }
+        }
+
+        .filter-section{
+            margin: 0px 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 280px;
+            padding: 3px;
+
+            .filter-section-buttons{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                font-weight: 700;
+                color: #000000;
+                background-color: transparent;
+                border: none;
+
+                .down-arrow{
+                    color: #98A9BC;
+                    margin-right: 5px;
+                    cursor: pointer;
+                }
+
+                .filter-label{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 25px;
+                    color: #778CA2;
+                    margin-left: 10px;
+                    font-style: normal;
+                    font-weight: 700;
+
+                    .filter-icons-2{
+                        margin-left: 6px;
+                        stroke-width: 1;
+                        height: 16px;
+                        width: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
