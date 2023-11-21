@@ -1,0 +1,200 @@
+[{
+  "_id": {
+    "$oid": "655b8ec3a50002dd73901db9"
+  },
+  "name": "John Doe",
+  "age": 30,
+  "gender": "male",
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "state": "ABC",
+    "zipcode": "12345"
+  },
+  "contact": {
+    "email": "john@example.com",
+    "phone": "123-456-7890"
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Science",
+      "major": "Computer Science",
+      "university": "ABC University",
+      "graduation_year": 2015
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "Python",
+    "SQL",
+    "Data Analysis"
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Fluent"
+    },
+    {
+      "name": "Spanish",
+      "proficiency": "Intermediate"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "655b8ec3a50002dd73901dba"
+  },
+  "name": "Jane Smith",
+  "age": 28,
+  "gender": "female",
+  "address": {
+    "street": "456 Oak St",
+    "city": "Othertown",
+    "state": "DEF",
+    "zipcode": "54321"
+  },
+  "contact": {
+    "email": "jane@example.com",
+    "phone": "987-654-3210"
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Arts",
+      "major": "Economics",
+      "university": "XYZ University",
+      "graduation_year": 2016
+    }
+  ],
+  "skills": [
+    "Marketing",
+    "Research",
+    "Public Speaking"
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Fluent"
+    },
+    {
+      "name": "French",
+      "proficiency": "Intermediate"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "655b8ec3a50002dd73901dbb"
+  },
+  "name": "Alex Johnson",
+  "age": 25,
+  "gender": "male",
+  "address": {
+    "street": "789 Elm St",
+    "city": "Sometown",
+    "state": "GHI",
+    "zipcode": "67890"
+  },
+  "contact": {
+    "email": "alex@example.com",
+    "phone": "555-555-5555"
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Science",
+      "major": "Physics",
+      "university": "EFG University",
+      "graduation_year": 2017
+    }
+  ],
+  "skills": [
+    "Physics",
+    "Mathematics",
+    "Research"
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Fluent"
+    },
+    {
+      "name": "German",
+      "proficiency": "Basic"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "655b8ec3a50002dd73901dbc"
+  },
+  "name": "Sarah Lee",
+  "age": 32,
+  "gender": "female",
+  "address": {
+    "street": "321 Pine St",
+    "city": "Thistown",
+    "state": "JKL",
+    "zipcode": "13579"
+  },
+  "contact": {
+    "email": "sarah@example.com",
+    "phone": "222-333-4444"
+  },
+  "education": [
+    {
+      "degree": "Master of Business Administration",
+      "major": "Finance",
+      "university": "MNO University",
+      "graduation_year": 2018
+    }
+  ],
+  "skills": [
+    "Financial Analysis",
+    "Management",
+    "Business Strategy"
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Fluent"
+    },
+    {
+      "name": "Mandarin",
+      "proficiency": "Intermediate"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "655b8ec3a50002dd73901dbd"
+  },
+  "name": "Michael Brown",
+  "age": 27,
+  "gender": "male",
+  "contact": {
+    "email": "michael@example.com",
+    "phone": "777-888-9999"
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Arts",
+      "major": "History",
+      "university": "PQR University",
+      "graduation_year": 2016
+    }
+  ],
+  "skills": [
+    "Historical Research",
+    "Writing",
+    "Analysis"
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Fluent"
+    },
+    {
+      "name": "Italian",
+      "proficiency": "Basic"
+    }
+  ]
+}]
