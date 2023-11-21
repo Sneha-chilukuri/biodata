@@ -1,0 +1,46 @@
+.form-modal-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 610px;
+    padding: 5px;
+}
+
+.each-field{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    margin: 30px 23px;
+    padding: 5px;
+    input{
+        height: 40px;
+        width: 250px;
+        color: #D1D1D1;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 10px 8px;
+        border-radius: 4px;
+        border: 1px solid #D1D1D1;
+        background: #FFF;
+    }
+}
+
+.each-field label{
+    text-align: end;
+    align-self: flex-end;
+    color: #535353;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+::placeholder{
+    text-align: end;
+}

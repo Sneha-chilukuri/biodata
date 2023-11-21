@@ -52,7 +52,7 @@
             }
         }
         .search-bar-container{
-            width: 380px;
+            width: 400px;
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
@@ -68,11 +68,12 @@
                     border: none;
                     outline-color: #778CA2;
                     outline-width: 1px;
-                    width: 200px;
+                    width: 230px
                 }
                 ::placeholder{
                     font-weight: 700;
                     outline-style: none;
+                    font-size: 14px;
                 }
 
                 .search-icon{
