@@ -1,0 +1,79 @@
+.biodata-container {
+  .navbar--container {
+    // background-color: rgb(224, 223, 223);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0) 0px 2px 4px -1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    .logo-notifications {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .logo-details {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        .admin-details {
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
+          align-items: center;
+          .admin-name {
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 20px;
+          }
+          span:nth-child(2) {
+            color: #4d7cfe;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 20px;
+          }
+        }
+        .logo-image {
+          width: 32px;
+          height: 32px;
+          border-radius: 32px;
+        }
+        .notification-icon {
+          width: 18px;
+          height: 20.769px;
+          color: #4D7CFE;
+        }
+        .settings-icon {
+          width: 22px;
+          height: 22px;
+          color: #4D7CFE;
+        }
+      }
+      .search-bar-icon{
+        display: flex;
+        align-items: center;
+        .search-box {
+        margin-left: 64px;
+        border: none;
+        width: 200px;
+        height: 45px;
+        outline-color: #4D7CFE;
+        ::placeholder {
+          color: #778ca2;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 18px;
+        }
+      }
+      .search-icon{
+        color: #4D7CFE;
+        font-weight: 400;
+      }
+    }
+    }
+  }
+  .your-logo {
+    width: 204px;
+    height: 48.75px;
+  }
+}

@@ -1,0 +1,50 @@
+.table-form {
+  margin: 0 22px 67px 66px;
+  // border: 1px solid green;
+  padding: 5px;
+  overflow-x: scroll;
+  table {
+    border-collapse: collapse;
+    // width: 100%;
+    // border: 1px solid red;
+    width: 2000px;
+  }
+
+  th,
+  td {
+
+    text-align: center;
+    padding: 16px;
+    max-width: 100px;
+  }
+  tr {
+    .eye-icons {
+      border: none;
+      background-color: #f2f4f6;
+    }
+    button {
+      border: none;
+    }
+    .eye-icon {
+      width: 34px;
+      height: 34px;
+      padding-right: 16px;
+      color: #809ceb;
+    }
+    .edit-icon {
+      width: 34px;
+      height: 34px;
+      padding-right: 16px;
+      color: #809ceb;
+    }
+    .delete-icon {
+      width: 34px;
+      height: 34px;
+      padding-right: 16px;
+      color: #809ceb;
+    }
+  }
+  tr:nth-child(even) {
+    // background-color: #ff;
+  }
+}

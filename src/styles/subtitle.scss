@@ -1,0 +1,75 @@
+.download-notification{
+  padding: 16px;
+  background-color: rgb(33, 168, 112);
+  color: #fff;
+  width: 38rem;
+  margin: 0 auto;
+  text-align: center;
+  // margin-top: 2rem;
+}
+.sub-title {
+  padding: 24px 66px 12px 83px;
+  .dashboard-title {
+    color: #4d7cfe;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 32px;
+  }
+  .sub-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    .create-form-download {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      .create-form {
+        display: flex;
+        align-items: center;
+        color: #778ca2;
+        .create-btn {
+          border: none;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 16px;
+        }
+        .plus-icon {
+          width: 16px;
+          height: 16px;
+        }
+      }
+      .download-data {
+        display: flex;
+        align-items: center;
+        color: #778ca2;
+        .download-btn {
+          border: none;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 16px;
+        }
+      }
+    }
+    .filters {
+      margin-right: 16px;
+    }
+  }
+}
+// .modal-popup{
+// max-width: 38rem;
+// border: 2px solid red;
+// }
+// .modal-popup{
+//   width: 100vw !important;
+//   height: 60vh !important;
+// }
+.form-details{
+  background-color: red;
+  // .form-details-1{
+   
+  // }
+}

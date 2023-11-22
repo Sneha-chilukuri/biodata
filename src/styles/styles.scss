@@ -1,0 +1,10 @@
+@import "./navbar.scss";
+@import "./modalDialog.scss";
+.biodata-content-container {
+  background-color: #f2f4f6;
+  // width: 100%;
+  //   width: 100vh;
+  min-height: 100vh;
+  @import "./subtitle.scss";
+  @import "./formtable.scss";
+}
