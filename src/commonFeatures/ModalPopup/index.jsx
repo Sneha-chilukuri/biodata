@@ -1,9 +1,8 @@
-
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import CreateFormFields from '../CreateFormFields';
 
-function ModalPopup({show,handleClose,modalHeading}) {
+
+function ModalPopup({show,handleClose,modalHeading,modalBody,cancelBtn,addDetailsBtn,onSubmit}) {
 
   return (
     <>
@@ -11,16 +10,18 @@ function ModalPopup({show,handleClose,modalHeading}) {
         <Modal.Header closeButton>
           <Modal.Title>{modalHeading}</Modal.Title>
         </Modal.Header>
+
         <Modal.Body>
-          <CreateFormFields/>
+          {modalBody}
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
+          <Button variant="secondary" onClick={handleClose} >
+          {cancelBtn}
           </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Add Details
+          <Button variant="primary" onClick = {onSubmit}>
+           { addDetailsBtn}
           </Button>
+          
         </Modal.Footer>
       </Modal>
     </>

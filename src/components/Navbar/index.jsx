@@ -4,8 +4,6 @@ import { FiSettings } from "react-icons/fi";
 import { CiCirclePlus } from "react-icons/ci";
 import { LiaSearchSolid } from "react-icons/lia";
 
-
-
 const Navbar = () => {
   return (
     <div className='navbar-container'>

@@ -1,16 +1,15 @@
 import React from 'react'
 import { useContext } from 'react'
 import { DataContext } from '../../App'
-// import Example from '../Common/Example';
 
 
 const PersonsDetailsTable = () => {
 
   const bioData = useContext(DataContext)
-  // console.log(bioData)
   return (
   <div className='table-container'>
    <table>
+   <thead>
     <tr>
       <th>Actions</th>
       <th>Full Name</th>
@@ -22,8 +21,10 @@ const PersonsDetailsTable = () => {
       <th>Skills</th>
       <th>Languages</th>
     </tr>
+  </thead>
+  <tbody>
     {bioData.map(eachData =>(
-      <tr>
+      <tr key={eachData.name}>
         <td>H E D</td>
         <td>{eachData.name}</td>
         <td>{eachData.age}</td>
@@ -35,6 +36,7 @@ const PersonsDetailsTable = () => {
         <td>{eachData.languages[0].name}</td>
       </tr>
     ))}
+     </tbody>
    </table>
    </div>
   )

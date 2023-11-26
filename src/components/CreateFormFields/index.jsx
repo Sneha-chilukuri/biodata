@@ -1,55 +1,18 @@
-import React from 'react'
+const CreateFormFields = ({handleChange,submitForm,formValues,formErrors,formData}) => {
 
-const formData = [
-    {
-        "id":1,
-        "label":"First Name",
-        "placeHolder":"Enter Your First Name"
-    },
-    {
-        "id":2,
-        "label":"Last Name",
-        "placeHolder":"Enter Your Last Name"
-    },
-    {
-        "id":3,
-        "label":"Mobile No",
-        "placeHolder":"Enter Your Mobile No"
-    },
-    {
-        "id":4,
-        "label":"Email ID",
-        "placeHolder":"Enter Your Email ID"
-    },
-    {
-        "id":5,
-        "label":"ID",
-        "placeHolder":"Enter ID"
-    },
-    {
-        "id":6,
-        "label":"Company",
-        "placeHolder":"Enter Your Company"
-    },
-    {
-        "id":7,
-        "label":"Password",
-        "placeHolder":"Enter Your Password"
-    },
-    {
-        "id":8,
-        "label":"Type Of User",
-        "placeHolder":"Select User Type"
-    }
-]
-
-const CreateFormFields = () => {
   return (
-    <form className='form-modal-container'>
+    <form className='form-modal-container' onSubmit={submitForm}>
             {formData.map(eachField =>(
                 <li key={eachField.id} className='each-field'>
                     <label htmlFor={eachField.label}>{eachField.label}</label>
-                    <input type="text" id={eachField.label} placeholder={eachField.placeHolder}/>
+                    <input 
+                    type={eachField.type} 
+                    id={eachField.id} 
+                    placeholder={eachField.placeHolder} 
+                    value={formValues[eachField.value]}
+                    required={eachField.validation.required}
+                    onChange={(e) =>handleChange(e,eachField)}/>
+                    {formErrors[eachField.label] ? (<p className="error">{formErrors[eachField.label]} *</p>):(<p className="error"></p>)}
                 </li>
             ))}
     </form>
@@ -57,3 +20,4 @@ const CreateFormFields = () => {
 }
 
 export default CreateFormFields
+
