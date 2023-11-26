@@ -18,10 +18,10 @@
           height: 40px;
           margin-top: 3px;
           text-align: end;
-          // ::placeholder{
-          //   display: flex;
-          //   align-items: flex-end;
-          // }
+        }
+        .error-message{
+          color: red;
+          height: 10px;
         }
       } 
     }

@@ -16,15 +16,7 @@ const FormTable = () => {
   const [deleteData, setDeleteData] = useState({});
   const [showNotification, setNotification] = useState(false);
   const [isEdit, setIsEdit] = useState(false);
-
-  // const [visibleFields, setVisibleFields] = useState({});
-
-  // const  = (accountId) => {
-  //   setVisibleFields(prevState => ({
-  //     ...prevState,
-  //     [accountId]: !prevState[accountId],
-  //   }));
-  // };
+  
   const handleEyeIcon = (id) => {
     const accounts = filterData.filter((d) => d.id === id);
     if (accounts[0].id === id) {
@@ -60,7 +52,7 @@ const FormTable = () => {
       return (
         <>
           Are you sure you want to delete
-          <strong>{` ${deleteData[0].fullname}`}</strong>'s account
+          <strong>{` ${deleteData[0].name}`}</strong>'s account
         </>
       );
     } else {
@@ -70,7 +62,7 @@ const FormTable = () => {
   return (
     <>
       {showNotification && (
-        <Notification data={`${deleteData[0].fullname} details are deleted`} />
+        <Notification data={`${deleteData[0].name} details are deleted`} />
       )}
       <div className="table-form">
         <table className="table-data">

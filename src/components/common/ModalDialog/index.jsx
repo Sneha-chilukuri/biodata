@@ -14,7 +14,7 @@ const ModalDialog = ({
   return (
     <Modal
       show={isOpen}
-      onHide={() => setIsOpen(false)}
+      onHide={handleSecondary}
       size={modalSize}
       className="modal-popup"
     >
