@@ -134,7 +134,7 @@ const FilterFeatures = () => {
           console.log("Form has errors, please fix them");
         } else {
             setFormErrors({})
-          console.log("Form submitted successfully!", formValues);
+          console.log("Form submitted successful", formValues);
         }
 
     }
