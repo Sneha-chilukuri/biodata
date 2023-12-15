@@ -153,7 +153,7 @@ const FilterFeatures = () => {
         <p className='dashboard-text'>Dashboard</p>
         <div className='filter-section-container'>
             <div className='create-feature-section'>
-            <button className='filter-buttons' onClick={handleModal}>CREATE USER<CiCirclePlus className='filter-icons'/></button>
+            <button className='filter-buttons' onClick={handleModal}>CREATE USER sai<CiCirclePlus className='filter-icons'/></button>
             {show && 
             <ModalPopup 
             show={show} 
